@@ -1,10 +1,10 @@
 {
-  "name": "serverless-offline-direct-lambda",
-  "version": "0.0.1",
+  "name": "@rowinbot/serverless-offline-direct-lambda",
+  "version": "1.0.0",
   "description": "A Serverless Offline plugin that exposes lambdas with no API Gateway event via HTTP, to allow offline direct lambda-to-lambda interactions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "npm publish --access public"
   },
   "keywords": [
     "AWS",
@@ -13,7 +13,7 @@
     "Offline",
     "Direct"
   ],
-  "author": "Daniel Kelleher",
+  "author": "Rowin hernandez",
   "license": "ISC",
   "dependencies": {
     "serialize-error": "^2.1.0"
